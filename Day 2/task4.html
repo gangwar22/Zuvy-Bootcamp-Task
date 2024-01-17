@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Welcome to NavGurukul Web Development Bootcamp</h1>
+            <p>Learn web development with Navgurukul's comprehensive bootcamp. Join us and embark on a journey to become a
+                skilled web developer!</p>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2>Register for the Bootcamp</h2>
+            <form action="#" id="registrationForm">
+                <label for="username">Username: <input type="text" id="username" name="username" required></label><br>
+                <label for="email">Email: <input type="email" id="email" name="email" required></label><br>
+                <label for="password">Password: <input type="password" id="password" name="password" required></label><br>
+                <label for="confirmPassword">Confirm Password: <input type="password" id="confirmPassword"
+                        name="confirmPassword" required></label><br>
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br>
+                <label>Programming Experience:</label>
+                <input type="radio" name="programmingExperience" id="beginner" value="beginner" required>
+                <label for="beginner">Beginner</label>
+                <input type="radio" name="programmingExperience" id="intermediate" value="intermediate" required>
+                <label for="intermediate">Intermediate</label>
+                <input type="radio" name="programmingExperience" id="advanced" value="advanced" required><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Already have an account?</h2>
+            <h2>Login</h2>
+            <form action="#" method="post" id="loginForm">
+                <label for="loginUsername">Username: <input type="text" id="loginUsername" name="loginUsername"
+                        required></label>
+                <label for="loginPassword">Password: <input type="password" id="loginPassword" name="loginPassword"
+                        required></label>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </footer>
+</body>
+
+</html>
