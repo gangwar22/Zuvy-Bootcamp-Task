@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CSS Flag Project</title>
   <style>
-    body{
+    body {
       background-color: black;
     }
+
     /* Write your CSS Code here */
-    .flag{
+    .flag {
       height: 600px;
       width: 900px;
-      border: 4px solid white;
+      border: 2px solid black;
       background-color: rgb(164, 14, 14);
-      text-align: center
+      text-align: center;
+      border: 4px solid white;
+      
+
     }
 
-    #white-circle{
-      height: 300px;
-      width: 900px;
-      background-color: rgb(13, 13, 107);
+    .flag > p {
+      height: 80px;
+      font-size: 4rem;
       position: absolute;
-      top: 157px;
+      margin-left: 340px;
+      color: white;
+      margin-top: -0.5px;
     }
 
-    #text{
-      background-color: white;
-      left: 340px;
-      position: relative;
+
+    .flag > div > div >p {
+      border: 2px solid black;
       height: 200px;
       width: 200px;
       border-radius: 50%;
-      font-size:9vh;
-      bottom:22px;
+      position: absolute;
+      left: 340px;
+      top: 185px;
+      color: black;
+      background-color: white;
+      
     }
 
-    #content{ 
-      position: relative;
-      color: white;
-      font-size:10vh;
-      font-weight: 10px;
-      bottom: 80px;
+    .flag > div > div > p{
+      font-size: 4.2rem;
+      margin: 20px 20px 20px 20px;
+    }
+
+    .flag > div {
+      background-color: rgb(11, 11, 141);
+      height: 320px;
+      width: 900px;
+      margin-top: 8.8em;
+
+
+
     }
   </style>
 </head>
+
 <body>
   <div class="flag">
-    <p id="content">The Flag</p>
+    <p>The Flag</p>
     <div>
-      <div id="white-circle">
-        <p id="text">of Laos</p>
+      <div>
+        <p>of Laos</p>
       </div>
     </div>
   </div>
