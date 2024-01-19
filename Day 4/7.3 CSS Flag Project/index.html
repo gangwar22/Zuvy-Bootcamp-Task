@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>CSS Flag Project</title>
   <style>
+    body{
+      background-color: black;
+    }
     /* Write your CSS Code here */
+    .flag{
+      height: 600px;
+      width: 900px;
+      border: 4px solid white;
+      background-color: rgb(164, 14, 14);
+      text-align: center
+    }
+    #white-circle{
+      height: 300px;
+      width: 900px;
+      background-color: rgb(13, 13, 107);
+      position: absolute;
+      top: 157px;
+
+    }
+    #text{
+      background-color: white;
+      left: 340px;
+      position: relative;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      font-size:9vh;
+      bottom:22px;
+    
+    }
+    #content{ 
+      position: relative;
+      color: white;
+      font-size:10vh;
+      font-weight: 10px;
+      bottom: 80px;
+    }
     
   </style>
 </head>
@@ -22,10 +57,10 @@ https://appbrewery.github.io/flag-of-laos/
 
 <body>
   <div class="flag">
-    <p>The Flag</p>
+    <p id="content">The Flag</p>
     <div>
-      <div>
-        <p>of Laos</p>
+      <div id="white-circle">
+        <p id="text">of Laos</p>
       </div>
     </div>
   </div>
