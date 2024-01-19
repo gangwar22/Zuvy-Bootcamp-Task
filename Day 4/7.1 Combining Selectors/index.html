@@ -6,7 +6,18 @@
   <title>Combining CSS Selectors</title>
   <style>
     /* Write your code here */
-    
+    h1,h2{
+      color: blueviolet;
+    }
+    div > p.done{
+      color: brown;
+    }
+    ul>li#Done{
+      color: blue;
+    }
+    ul>li.done{
+      color: green;
+    }
   </style>
 </head>
 
@@ -18,7 +29,7 @@
   <div class="box">
     <p class="done">Do these things today!</p>
     <ul class="list">
-      <li>Wash Clothes</li>
+      <li id="Done">Wash Clothes</li>
       <li class="done">Read</li>
       <li class="done">Maths Questions</li>
     </ul>
