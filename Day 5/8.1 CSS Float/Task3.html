@@ -21,17 +21,28 @@ Dog - https://i.ibb.co/fCBWsNg/dog.jpg
     }
 
     p {
-      font-size: 2em;
+      font-size: 1.9em;
     }
-
+    
     .cat {
       background-color: aquamarine;
+      position: relative;
+      bottom:36px;
+
+    }
+    .cat > img{
+      float: left;
     }
 
     .dog {
       background-color: coral;
+      position: relative;
+      left: 328px;
     }
 
+    .dog > img{
+      float: left;
+    }
     footer {
       text-align: center;
       background-color: blueviolet;
@@ -42,7 +53,6 @@ Dog - https://i.ibb.co/fCBWsNg/dog.jpg
 <body>
   <div class="cat">
     <h2>CatCSS</h2>
-
     <img src="cat.jpeg" alt="cat in a box" />
     <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
       poochy. Sleep on keyboard
